@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/airlab/Documents/HDL/HW_2/VivodoUsed/pipelined/HDL_HW2/HDL_HW2.sim/sim_1/impl/func/xsim/pre_syn_testbench_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hw2_pipe
+INFO: [VRFC 10-311] analyzing module hw2_pipe_stage1
+INFO: [VRFC 10-311] analyzing module hw2_pipe_stage2
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/airlab/Documents/HDL/HW_2/VivodoUsed/pipelined/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pre_syn_testbench
