@@ -44,26 +44,8 @@ This course introduces Hardware Description Languages (HDL), primarily using Ver
 | HW4 | Sobel Edge Detector | 100 | 12.0 |
 | HW5 | VGG16 Accelerator | 90 | 10.8 |
 
-> **HW2 Note**: Instructor's comment - You synthesized to Area Optimize this time. Please be careful next time. No points deducted this time (all synthesized to Area Optimize).
->
-> **HW5 Note**: Instructor's comment - Some cat images were incorrect. -10 points.
-
 ### Final Grade
 
 **Total Course Score: 82.8 points**
-
-## 🛠️ Tech Stack
-
-- **Primary Language**: Verilog (56.5%)
-- **Supporting Languages**: C (28.5%), Tcl (8.1%), JavaScript (3.9%), Shell (1.4%), Batchfile (1.2%)
-
-## 📖 Course Information
-
-- **University**: National Sun Yat-sen University (國立中山大學)
-- **Department**: Master's Program in Computer Science and Engineering
-- **Semester**: Academic Year 114, 1st Semester
-- **Course Type**: Lecture-based (Elective)
-
----
 
 *This repository documents the learning outcomes and assignments for the Hardware Description Languages course.*
