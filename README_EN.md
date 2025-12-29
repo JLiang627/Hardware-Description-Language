@@ -14,15 +14,30 @@ This course introduces Hardware Description Languages (HDL), primarily using Ver
 
 ## 📁 Project Structure
 
-| Folder | Assignment | Score |
-|--------|------------|-------|
-| `HW_1` | Adder Designs Using Verilog Structural, Dataflow, and Behavioral Modeling | 100 |
-| `HW_2` | Pipelined Add/Sub/Multiplier | 100 |
-| `HW_3` | Pipelined THUMB CPU | 100 |
-| `HW_4` | Sobel Edge Detector | 100 |
-| `HW_5` | VGG16 Accelerator | 90 |
-| `HW_6` | Additional Assignment | - |
-| `教材` | Course Materials and References | - |
+```
+Hardware-Description-Language/
+├── HW_1/                  # Adder Designs (Structural, Dataflow, Behavioral)
+│   ├── src/               # Source code
+│   └── spec/              # Assignment specifications
+├── HW_2/                  # Pipelined Add/Sub/Multiplier
+│   ├── src/
+│   └── spec/
+├── HW_3/                  # Pipelined THUMB CPU
+│   ├── src/
+│   └── spec/
+├── HW_4/                  # Sobel Edge Detector
+│   ├── src/
+│   └── spec/
+├── HW_5/                  # VGG16 Accelerator
+│   ├── src/
+│   └── spec/
+├── HW_6/                  # Additional Assignment
+│   ├── src/
+│   └── spec/
+└── 教材/                   # Course materials and references
+```
+
+> **Note**: The `src/` folder contains my code implementation, and the `spec/` folder contains the instructor's assignment requirements and specifications.
 
 ## 📊 Course Grades
 
