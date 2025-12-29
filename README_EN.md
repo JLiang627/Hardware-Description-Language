@@ -8,11 +8,11 @@
 > Instructor: Prof. Sheng-Fu Hsiao  
 > Credits: 3
 
-## 📚 Course Overview
+##  Course Overview
 
 This course introduces Hardware Description Languages (HDL), primarily using Verilog for digital circuit design. The curriculum covers topics ranging from basic adder designs to advanced VGG16 accelerator implementation.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Hardware-Description-Language/
@@ -39,7 +39,7 @@ Hardware-Description-Language/
 
 > **Note**: The `src/` folder contains my code implementation, and the `spec/` folder contains the instructor's assignment requirements and specifications.
 
-## 📊 Course Grades
+##  Course Grades
 
 ### Grade Breakdown
 
