@@ -1,0 +1,52 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : add_sub_1
+Version: T-2022.03
+Date   : Sat Oct 18 15:26:09 2025
+****************************************
+
+Operating Conditions: ss0p72vm40c   Library: N16ADFP_StdCellss0p72vm40c_ccs
+Wire Load Model Mode: top
+
+  Startpoint: s (input port)
+  Endpoint: d[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_sub_1          ZeroWireload          N16ADFP_StdCellss0p72vm40c_ccs
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  s (in)                                   0.00       0.00 f
+  U63/ZN (CKND1BWP16P90)                   0.01       0.01 r
+  U57/Z (AN2D1BWP16P90)                    0.02       0.04 r
+  U56/Z (XOR2D1BWP16P90)                   0.03       0.07 f
+  U55/ZN (MAOI222D1BWP16P90)               0.02       0.09 r
+  U54/ZN (CKND1BWP16P90)                   0.01       0.10 f
+  U51/ZN (OAI21D1BWP16P90)                 0.01       0.12 r
+  U50/ZN (IOA21D1BWP16P90)                 0.02       0.14 f
+  U47/Z (OR2D1BWP16P90)                    0.02       0.17 f
+  U46/ZN (AOI22D1BWP16P90)                 0.03       0.19 r
+  U43/Z (AN2D1BWP16P90)                    0.03       0.22 r
+  U41/ZN (OAI22D1BWP16P90)                 0.02       0.24 f
+  U38/Z (OR2D1BWP16P90)                    0.03       0.27 f
+  U37/ZN (AOI22D1BWP16P90)                 0.02       0.29 r
+  U36/ZN (CKND1BWP16P90)                   0.02       0.31 f
+  U35/Z (OA21D1BWP16P90)                   0.02       0.34 f
+  U34/ZN (AOI21D1BWP16P90)                 0.02       0.35 r
+  U32/ZN (MAOI222D1BWP16P90)               0.02       0.37 f
+  U30/Z (XOR2D1BWP16P90)                   0.03       0.40 r
+  d[15] (out)                              0.00       0.40 r
+  data arrival time                                   0.40
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

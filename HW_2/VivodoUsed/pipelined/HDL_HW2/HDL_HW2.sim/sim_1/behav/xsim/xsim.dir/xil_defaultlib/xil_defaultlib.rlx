@@ -1,9 +1,0 @@
-0.6
-2018.3
-Dec  7 2018
-00:33:28
-C:/Users/airlab/Documents/HDL/HW_2/VivodoUsed/pipelined/HDL_HW2/HDL_HW2.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
-C:/Users/airlab/Documents/HDL/HW_2/VivodoUsed/pipelined/hw2_pipe.v,1761904683,verilog,,C:/Users/airlab/Documents/HDL/HW_2/VivodoUsed/pipelined/hw2_pipe_stage1.v,,hw2_pipe,,,,,,,,
-C:/Users/airlab/Documents/HDL/HW_2/VivodoUsed/pipelined/hw2_pipe_stage1.v,1761904686,verilog,,C:/Users/airlab/Documents/HDL/HW_2/VivodoUsed/pipelined/hw2_pipe_stage2.v,,hw2_pipe_stage1,,,,,,,,
-C:/Users/airlab/Documents/HDL/HW_2/VivodoUsed/pipelined/hw2_pipe_stage2.v,1761980715,verilog,,C:/Users/airlab/Documents/HDL/HW_2/VivodoUsed/pipelined/testbench.v,,hw2_pipe_stage2,,,,,,,,
-C:/Users/airlab/Documents/HDL/HW_2/VivodoUsed/pipelined/testbench.v,1761983106,verilog,,,,pre_syn_testbench,,,,,,,,

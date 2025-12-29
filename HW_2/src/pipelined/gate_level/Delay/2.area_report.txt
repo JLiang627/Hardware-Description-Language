@@ -1,0 +1,47 @@
+ 
+****************************************
+Report : area
+Design : hw2_pipe
+Version: T-2022.03
+Date   : Thu Oct 30 15:15:24 2025
+****************************************
+
+Library(s) Used:
+
+    N16ADFP_StdCellss0p72vm40c_ccs (File: /cad/CBDK/ADFP/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/CCS/N16ADFP_StdCellss0p72vm40c_ccs.db)
+
+Number of ports:                          181
+Number of nets:                           456
+Number of cells:                          228
+Number of combinational cells:            191
+Number of sequential cells:                33
+Number of macros/black boxes:               0
+Number of buf/inv:                         28
+Number of references:                       3
+
+Combinational area:                 98.858882
+Buf/Inv area:                        4.872960
+Noncombinational area:              37.635841
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   136.494723
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  -----------------------------
+hw2_pipe                           136.4947    100.0    1.6589     0.0000  0.0000  hw2_pipe
+u_stage1                            32.9184     24.1    0.5702    19.3882  0.0000  hw2_pipe_stage1
+u_stage1/r368                       12.9600      9.5   12.9600     0.0000  0.0000  hw2_pipe_stage1_DW01_addsub_0
+u_stage2                           101.9174     74.7    0.1555    18.2477  0.0000  hw2_pipe_stage2
+u_stage2/mult_11                    83.5142     61.2   83.5142     0.0000  0.0000  hw2_pipe_stage2_DW_mult_uns_0
+--------------------------------  ---------  -------  --------  ---------  ------  -----------------------------
+Total                                                  98.8589    37.6358  0.0000
+
+1

@@ -1,0 +1,75 @@
+ 
+****************************************
+Report : area
+Design : adder_structure
+Version: V-2023.12
+Date   : Thu Oct  9 19:14:18 2025
+****************************************
+
+Library(s) Used:
+
+    N16ADFP_StdCellss0p72vm40c_ccs (File: /cad/CBDK/ADFP/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/CCS/N16ADFP_StdCellss0p72vm40c_ccs.db)
+
+Number of ports:                          258
+Number of nets:                           326
+Number of cells:                          133
+Number of combinational cells:            101
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                      33
+
+Combinational area:                 49.403521
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                    49.403521
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------------
+adder_structure                     49.4035    100.0    0.9850     0.0000  0.0000  adder_structure
+FA_loop_0__FA                        1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_0
+FA_loop_10__FA                       1.6589      3.4    1.6589     0.0000  0.0000  FA_structure_22
+FA_loop_11__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_21
+FA_loop_12__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_20
+FA_loop_13__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_19
+FA_loop_14__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_18
+FA_loop_15__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_17
+FA_loop_16__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_16
+FA_loop_17__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_15
+FA_loop_18__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_14
+FA_loop_19__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_13
+FA_loop_1__FA                        1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_31
+FA_loop_20__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_12
+FA_loop_21__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_11
+FA_loop_22__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_10
+FA_loop_23__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_9
+FA_loop_24__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_8
+FA_loop_25__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_7
+FA_loop_26__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_6
+FA_loop_27__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_5
+FA_loop_28__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_4
+FA_loop_29__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_3
+FA_loop_2__FA                        1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_30
+FA_loop_30__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_2
+FA_loop_31__FA                       1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_1
+FA_loop_3__FA                        1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_29
+FA_loop_4__FA                        1.6589      3.4    1.6589     0.0000  0.0000  FA_structure_28
+FA_loop_5__FA                        1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_27
+FA_loop_6__FA                        1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_26
+FA_loop_7__FA                        1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_25
+FA_loop_8__FA                        1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_24
+FA_loop_9__FA                        1.5034      3.0    1.5034     0.0000  0.0000  FA_structure_23
+--------------------------------  ---------  -------  --------  ---------  ------  ---------------
+Total                                                  49.4035     0.0000  0.0000
+
+1

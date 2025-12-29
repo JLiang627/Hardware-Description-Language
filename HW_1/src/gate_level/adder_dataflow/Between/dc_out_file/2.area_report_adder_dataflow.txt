@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : adder_dataflow
+Version: V-2023.12
+Date   : Thu Oct  9 17:28:38 2025
+****************************************
+
+Library(s) Used:
+
+    N16ADFP_StdCellss0p72vm40c_ccs (File: /cad/CBDK/ADFP/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/CCS/N16ADFP_StdCellss0p72vm40c_ccs.db)
+
+Number of ports:                          196
+Number of nets:                           350
+Number of cells:                          182
+Number of combinational cells:            181
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         31
+Number of references:                       1
+
+Combinational area:                 51.580801
+Buf/Inv area:                        4.821120
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                    51.580801
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  -------------------------
+adder_dataflow                      51.5808    100.0    0.0000     0.0000  0.0000  adder_dataflow
+add_1_root_add_10_2                 51.5808    100.0   51.5808     0.0000  0.0000  adder_dataflow_DW01_add_1
+--------------------------------  ---------  -------  --------  ---------  ------  -------------------------
+Total                                                  51.5808     0.0000  0.0000
+
+1

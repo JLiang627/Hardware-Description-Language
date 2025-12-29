@@ -1,0 +1,46 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : hw2_clockgating
+Version: T-2022.03
+Date   : Fri Oct 24 21:58:32 2025
+****************************************
+
+Operating Conditions: ss0p72vm40c   Library: N16ADFP_StdCellss0p72vm40c_ccs
+Wire Load Model Mode: top
+
+  Startpoint: u_stage2/result_reg_15_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: d[15] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hw2_clockgating    ZeroWireload          N16ADFP_StdCellss0p72vm40c_ccs
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_stage2/result_reg_15_/CP (DFCNQD2BWP16P90LVT)         0.00       0.00 r
+  u_stage2/result_reg_15_/Q (DFCNQD2BWP16P90LVT)          0.04       0.04 f
+  u_stage2/result[15] (hw2_clockgating_stage2)            0.00       0.04 f
+  d[15] (out)                                             0.00       0.04 f
+  data arrival time                                                  0.04
+
+  clock clk (rise edge)                                   0.49       0.49
+  clock network delay (ideal)                             0.00       0.49
+  output external delay                                   0.00       0.49
+  data required time                                                 0.49
+  --------------------------------------------------------------------------
+  data required time                                                 0.49
+  data arrival time                                                 -0.04
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+1

@@ -1,0 +1,74 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : Edge
+Version: T-2022.03
+Date   : Tue Nov 18 18:18:01 2025
+****************************************
+
+Operating Conditions: ss0p72vm40c   Library: N16ADFP_StdCellss0p72vm40c_ccs
+Wire Load Model Mode: top
+
+  Startpoint: R6_reg_1_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: edge_y[0] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Edge               ZeroWireload          N16ADFP_StdCellss0p72vm40c_ccs
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                               0.000000   0.000000
+  clock network delay (ideal)                         0.200000   0.200000
+  R6_reg_1_/CP (DFCNQD2BWP16P90LVT)                   0.000000   0.200000 r
+  R6_reg_1_/Q (DFCNQD2BWP16P90LVT)                    0.067513   0.267513 f
+  add_1_root_add_109_4/A[1] (Edge_DW01_add_7)         0.000000   0.267513 f
+  add_1_root_add_109_4/U1/Z (XOR2D1BWP16P90LVT)       0.025799   0.293311 f
+  add_1_root_add_109_4/SUM[1] (Edge_DW01_add_7)       0.000000   0.293311 f
+  add_0_root_add_109_4/B[1] (Edge_DW01_add_5)         0.000000   0.293311 f
+  add_0_root_add_109_4/U1_1/CO (FA1D1BWP16P90LVT)     0.028829   0.322140 f
+  add_0_root_add_109_4/U1_2/CO (FA1D1BWP16P90LVT)     0.027620   0.349761 f
+  add_0_root_add_109_4/U1_3/CO (FA1D1BWP16P90LVT)     0.027625   0.377385 f
+  add_0_root_add_109_4/U1_4/CO (FA1D1BWP16P90LVT)     0.027625   0.405010 f
+  add_0_root_add_109_4/U1_5/CO (FA1D1BWP16P90LVT)     0.027625   0.432635 f
+  add_0_root_add_109_4/U1_6/CO (FA1D1BWP16P90LVT)     0.027625   0.460260 f
+  add_0_root_add_109_4/U1_7/S (FA1D1BWP16P90LVT)      0.038623   0.498883 r
+  add_0_root_add_109_4/SUM[7] (Edge_DW01_add_5)       0.000000   0.498883 r
+  sub_109/B[7] (Edge_DW01_sub_1)                      0.000000   0.498883 r
+  sub_109/U4/ZN (CKND1BWP16P90LVT)                    0.009542   0.508425 f
+  sub_109/U2_7/CO (FA1D1BWP16P90LVT)                  0.027853   0.536278 f
+  sub_109/U2_8/CO (FA1D1BWP16P90LVT)                  0.027625   0.563903 f
+  sub_109/U2_9/CO (FA1D1BWP16P90LVT)                  0.022838   0.586741 f
+  sub_109/U2_10/Z (XOR3D2BWP16P90LVT)                 0.026824   0.613565 f
+  sub_109/DIFF[10] (Edge_DW01_sub_1)                  0.000000   0.613565 f
+  U1029/Z (BUFFD1BWP16P90LVT)                         0.025958   0.639523 f
+  U1005/ZN (CKND1BWP16P90LVT)                         0.028885   0.668409 r
+  U22/Z (AO22D1BWP16P90LVT)                           0.018379   0.686787 r
+  U1080/ZN (ND4D1BWP16P90)                            0.021479   0.708267 f
+  U1082/ZN (AOI22D1BWP16P90)                          0.018961   0.727227 r
+  U1031/ZN (NR3D1BWP16P90LVT)                         0.009106   0.736333 f
+  U1030/ZN (NR2D1BWP16P90LVT)                         0.007868   0.744201 r
+  U1065/ZN (CKND1BWP16P90LVT)                         0.015444   0.759645 f
+  U1064/ZN (CKND1BWP16P90LVT)                         0.004950   0.764595 r
+  edge_y[0] (out)                                     0.000000   0.764595 r
+  data arrival time                                              0.764595
+
+  clock clk (rise edge)                               0.760000   0.760000
+  clock network delay (ideal)                         0.200000   0.960000
+  clock uncertainty                                   -0.020000  0.940000
+  output external delay                               0.000000   0.940000
+  data required time                                             0.940000
+  --------------------------------------------------------------------------
+  data required time                                             0.940000
+  data arrival time                                              -0.764595
+  --------------------------------------------------------------------------
+  slack (MET)                                                    0.175405
+
+
+1

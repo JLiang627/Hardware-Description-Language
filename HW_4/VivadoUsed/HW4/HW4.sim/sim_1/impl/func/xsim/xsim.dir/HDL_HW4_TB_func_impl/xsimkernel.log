@@ -1,7 +1,0 @@
-Running: xsim.dir/HDL_HW4_TB_func_impl/xsimk.exe -simmode gui -wdb HDL_HW4_TB_func_impl.wdb -simrunnum 0 -socket 58123
-Design successfully loaded
-Design Loading Memory Usage: 14372 KB (Peak: 14372 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 29980 KB (Peak: 29980 KB)
-Simulation CPU Usage: 83281 ms

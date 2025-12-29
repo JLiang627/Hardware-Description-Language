@@ -1,9 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/airlab/Documents/HDL/HW_2/VivodoUsed/pipelined/hw2_pipe.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module hw2_pipe
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/airlab/Documents/HDL/HW_2/VivodoUsed/pipelined/hw2_pipe_stage1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module hw2_pipe_stage1
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/airlab/Documents/HDL/HW_2/VivodoUsed/pipelined/hw2_pipe_stage2.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module hw2_pipe_stage2
-WARNING: [VRFC 10-969] keyword 'unsigned' is not allowed here in this mode of verilog [C:/Users/airlab/Documents/HDL/HW_2/VivodoUsed/pipelined/hw2_pipe_stage2.v:9]
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/airlab/Documents/HDL/HW_2/VivodoUsed/pipelined/testbench.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module pre_syn_testbench

@@ -1,0 +1,134 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : thumb
+Version: T-2022.03
+Date   : Thu Nov 13 17:48:09 2025
+****************************************
+
+Operating Conditions: ss0p72vm40c   Library: N16ADFP_StdCellss0p72vm40c_ccs
+Wire Load Model Mode: top
+
+  Startpoint: step2/ID_Rd_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: step3/V_Flag_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  thumb              ZeroWireload          N16ADFP_StdCellss0p72vm40c_ccs
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                               0.000000   0.000000
+  clock network delay (ideal)                         0.200000   0.200000
+  step2/ID_Rd_reg_3_/CP (DFCNQD2BWP16P90LVT)          0.000000   0.200000 r
+  step2/ID_Rd_reg_3_/Q (DFCNQD2BWP16P90LVT)           0.064134   0.264134 f
+  step2/ID_Rd[3] (ID)                                 0.000000   0.264134 f
+  step3/ID_Rd[3] (EX)                                 0.000000   0.264134 f
+  step3/U50/Z (BUFFD1BWP16P90LVT)                     0.039282   0.303416 f
+  step3/sub_1_root_sub_0_root_sub_910_2/A[3] (EX_DW01_sub_11)
+                                                      0.000000   0.303416 f
+  step3/sub_1_root_sub_0_root_sub_910_2/U82/ZN (INVD1BWP16P90)
+                                                      0.023670   0.327085 r
+  step3/sub_1_root_sub_0_root_sub_910_2/U90/Z (XOR2D1BWP16P90LVT)
+                                                      0.026666   0.353751 f
+  step3/sub_1_root_sub_0_root_sub_910_2/DIFF[3] (EX_DW01_sub_11)
+                                                      0.000000   0.353751 f
+  step3/sub_0_root_sub_0_root_sub_910_2/A[3] (EX_DW01_sub_12)
+                                                      0.000000   0.353751 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U143/ZN (NR2D1BWP16P90LVT)
+                                                      0.011148   0.364899 r
+  step3/sub_0_root_sub_0_root_sub_910_2/U87/ZN (OAI21D1BWP16P90LVT)
+                                                      0.015951   0.380850 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U234/ZN (AOI21D1BWP16P90LVT)
+                                                      0.016595   0.397445 r
+  step3/sub_0_root_sub_0_root_sub_910_2/U73/ZN (OAI21D1BWP16P90LVT)
+                                                      0.015893   0.413338 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U237/ZN (AOI21D1BWP16P90LVT)
+                                                      0.016630   0.429968 r
+  step3/sub_0_root_sub_0_root_sub_910_2/U59/ZN (OAI21D1BWP16P90LVT)
+                                                      0.015892   0.445860 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U240/ZN (AOI21D1BWP16P90LVT)
+                                                      0.016604   0.462464 r
+  step3/sub_0_root_sub_0_root_sub_910_2/U45/ZN (OAI21D1BWP16P90LVT)
+                                                      0.017403   0.479868 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U146/ZN (AOI21D2BWP16P90LVT)
+                                                      0.015322   0.495190 r
+  step3/sub_0_root_sub_0_root_sub_910_2/U145/ZN (OAI21D2BWP16P90LVT)
+                                                      0.008201   0.503391 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U160/Z (AO21D1BWP16P90LVT)
+                                                      0.014684   0.518075 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U20/CO (FA1D1BWP16P90LVT)
+                                                      0.026398   0.544473 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U19/CO (FA1D1BWP16P90LVT)
+                                                      0.027610   0.572083 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U192/CO (FA1D1BWP16P90LVT)
+                                                      0.027625   0.599707 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U191/CO (FA1D1BWP16P90LVT)
+                                                      0.027625   0.627332 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U190/CO (FA1D1BWP16P90LVT)
+                                                      0.027625   0.654957 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U189/CO (FA1D1BWP16P90LVT)
+                                                      0.027625   0.682582 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U188/CO (FA1D1BWP16P90LVT)
+                                                      0.027625   0.710207 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U187/CO (FA1D1BWP16P90LVT)
+                                                      0.027625   0.737832 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U186/CO (FA1D1BWP16P90LVT)
+                                                      0.027625   0.765457 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U185/CO (FA1D1BWP16P90LVT)
+                                                      0.027625   0.793082 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U184/CO (FA1D1BWP16P90LVT)
+                                                      0.027625   0.820707 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U183/CO (FA1D1BWP16P90LVT)
+                                                      0.027625   0.848332 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U182/CO (FA1D1BWP16P90LVT)
+                                                      0.027625   0.875957 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U181/CO (FA1D1BWP16P90LVT)
+                                                      0.027625   0.903581 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U161/CO (FA1D1BWP16P90LVT)
+                                                      0.027625   0.931206 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U162/CO (FA1D1BWP16P90LVT)
+                                                      0.027625   0.958831 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U163/CO (FA1D1BWP16P90LVT)
+                                                      0.027625   0.986456 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U164/CO (FA1D1BWP16P90LVT)
+                                                      0.027625   1.014081 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U156/CO (FA1D1BWP16P90LVT)
+                                                      0.026781   1.040862 f
+  step3/sub_0_root_sub_0_root_sub_910_2/U244/ZN (XNR2D1BWP16P90LVT)
+                                                      0.015395   1.056258 f
+  step3/sub_0_root_sub_0_root_sub_910_2/DIFF[32] (EX_DW01_sub_12)
+                                                      0.000000   1.056258 f
+  step3/U5133/ZN (AOI32D1BWP16P90LVT)                 0.010691   1.066948 r
+  step3/U5131/ZN (ND4D1BWP16P90LVT)                   0.013013   1.079962 f
+  step3/U5130/ZN (AOI22D1BWP16P90LVT)                 0.015097   1.095058 r
+  step3/U141/ZN (OAI211D2BWP16P90LVT)                 0.015843   1.110901 f
+  step3/U3708/ZN (MUX2ND2BWP16P90LVT)                 0.023545   1.134446 r
+  step3/U1043/ZN (INVD1BWP16P90LVT)                   0.004802   1.139249 f
+  step3/U3709/ZN (XNR2D1BWP16P90LVT)                  0.021913   1.161161 r
+  step3/U5297/Z (MUX2D1BWP16P90LVT)                   0.014456   1.175617 r
+  step3/V_Flag_reg/D (DFCNQD2BWP16P90LVT)             0.000000   1.175617 r
+  data arrival time                                              1.175617
+
+  clock clk (rise edge)                               1.000000   1.000000
+  clock network delay (ideal)                         0.200000   1.200000
+  clock uncertainty                                   -0.020000  1.180000
+  step3/V_Flag_reg/CP (DFCNQD2BWP16P90LVT)            0.000000   1.180000 r
+  library setup time                                  -0.004323  1.175677
+  data required time                                             1.175677
+  --------------------------------------------------------------------------
+  data required time                                             1.175677
+  data arrival time                                              -1.175617
+  --------------------------------------------------------------------------
+  slack (MET)                                                    0.000059
+
+
+1

@@ -1,0 +1,170 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : adder_structure
+Version: V-2023.12
+Date   : Thu Oct  9 19:15:55 2025
+****************************************
+
+Operating Conditions: ss0p72vm40c   Library: N16ADFP_StdCellss0p72vm40c_ccs
+Wire Load Model Mode: top
+
+  Startpoint: ci (input port clocked by clk)
+  Endpoint: co (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_structure    ZeroWireload          N16ADFP_StdCellss0p72vm40c_ccs
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                0.000000   0.000000 r
+  ci (in)                                             0.000000   0.000000 r
+  FA_loop_0__FA/cin (FA_structure_0)                  0.000000   0.000000 r
+  FA_loop_0__FA/U2/ZN (CKND1BWP16P90LVT)              0.003441   0.003441 f
+  FA_loop_0__FA/U1/ZN (NR2D1BWP16P90LVT)              0.007424   0.010866 r
+  FA_loop_0__FA/U6/Z (XOR2D1BWP16P90LVT)              0.021499   0.032365 f
+  FA_loop_0__FA/U5/ZN (IOA21D1BWP16P90LVT)            0.007780   0.040145 r
+  FA_loop_0__FA/cout (FA_structure_0)                 0.000000   0.040145 r
+  FA_loop_1__FA/cin (FA_structure_31)                 0.000000   0.040145 r
+  FA_loop_1__FA/U2/ZN (CKND2BWP16P90LVT)              0.006844   0.046989 f
+  FA_loop_1__FA/U1/ZN (OAI22D2BWP16P90LVT)            0.011471   0.058460 r
+  FA_loop_1__FA/cout (FA_structure_31)                0.000000   0.058460 r
+  FA_loop_2__FA/cin (FA_structure_30)                 0.000000   0.058460 r
+  FA_loop_2__FA/U3/ZN (CKND2BWP16P90LVT)              0.005403   0.063863 f
+  FA_loop_2__FA/U4/ZN (OAI22D1BWP16P90LVT)            0.010495   0.074359 r
+  FA_loop_2__FA/cout (FA_structure_30)                0.000000   0.074359 r
+  FA_loop_3__FA/cin (FA_structure_29)                 0.000000   0.074359 r
+  FA_loop_3__FA/U2/ZN (CKND2BWP16P90LVT)              0.008596   0.082955 f
+  FA_loop_3__FA/U1/ZN (OAI22D2BWP16P90LVT)            0.012333   0.095288 r
+  FA_loop_3__FA/cout (FA_structure_29)                0.000000   0.095288 r
+  FA_loop_4__FA/cin (FA_structure_28)                 0.000000   0.095288 r
+  FA_loop_4__FA/U1/ZN (INVD1BWP16P90LVT)              0.007678   0.102966 f
+  FA_loop_4__FA/U6/ZN (OAI22D1BWP16P90LVT)            0.010934   0.113900 r
+  FA_loop_4__FA/cout (FA_structure_28)                0.000000   0.113900 r
+  FA_loop_5__FA/cin (FA_structure_27)                 0.000000   0.113900 r
+  FA_loop_5__FA/U2/ZN (CKND2BWP16P90LVT)              0.008819   0.122719 f
+  FA_loop_5__FA/U1/ZN (OAI22D2BWP16P90LVT)            0.010128   0.132848 r
+  FA_loop_5__FA/cout (FA_structure_27)                0.000000   0.132848 r
+  FA_loop_6__FA/cin (FA_structure_26)                 0.000000   0.132848 r
+  FA_loop_6__FA/U2/ZN (CKND2BWP16P90LVT)              0.006436   0.139284 f
+  FA_loop_6__FA/U7/ZN (OAI22D1BWP16P90LVT)            0.008576   0.147860 r
+  FA_loop_6__FA/cout (FA_structure_26)                0.000000   0.147860 r
+  FA_loop_7__FA/cin (FA_structure_25)                 0.000000   0.147860 r
+  FA_loop_7__FA/U1/ZN (INVD1BWP16P90LVT)              0.010834   0.158694 f
+  FA_loop_7__FA/U3/ZN (OAI22D1BWP16P90LVT)            0.011761   0.170455 r
+  FA_loop_7__FA/cout (FA_structure_25)                0.000000   0.170455 r
+  FA_loop_8__FA/cin (FA_structure_24)                 0.000000   0.170455 r
+  FA_loop_8__FA/U2/ZN (CKND2BWP16P90LVT)              0.008819   0.179274 f
+  FA_loop_8__FA/U1/ZN (OAI22D2BWP16P90LVT)            0.011895   0.191169 r
+  FA_loop_8__FA/cout (FA_structure_24)                0.000000   0.191169 r
+  FA_loop_9__FA/cin (FA_structure_23)                 0.000000   0.191169 r
+  FA_loop_9__FA/U3/ZN (CKND2BWP16P90LVT)              0.005407   0.196576 f
+  FA_loop_9__FA/U7/ZN (OAI22D1BWP16P90LVT)            0.008412   0.204989 r
+  FA_loop_9__FA/cout (FA_structure_23)                0.000000   0.204989 r
+  FA_loop_10__FA/cin (FA_structure_22)                0.000000   0.204989 r
+  FA_loop_10__FA/U1/ZN (INVD1BWP16P90LVT)             0.010834   0.215823 f
+  FA_loop_10__FA/U4/ZN (OAI22D1BWP16P90LVT)           0.009585   0.225407 r
+  FA_loop_10__FA/cout (FA_structure_22)               0.000000   0.225407 r
+  FA_loop_11__FA/cin (FA_structure_21)                0.000000   0.225407 r
+  FA_loop_11__FA/U4/ZN (INVD1BWP16P90LVT)             0.010834   0.236241 f
+  FA_loop_11__FA/U6/ZN (OAI22D1BWP16P90LVT)           0.009585   0.245825 r
+  FA_loop_11__FA/cout (FA_structure_21)               0.000000   0.245825 r
+  FA_loop_12__FA/cin (FA_structure_20)                0.000000   0.245825 r
+  FA_loop_12__FA/U1/ZN (INVD1BWP16P90LVT)             0.010834   0.256659 f
+  FA_loop_12__FA/U3/ZN (OAI22D1BWP16P90LVT)           0.011761   0.268421 r
+  FA_loop_12__FA/cout (FA_structure_20)               0.000000   0.268421 r
+  FA_loop_13__FA/cin (FA_structure_19)                0.000000   0.268421 r
+  FA_loop_13__FA/U2/ZN (CKND2BWP16P90LVT)             0.008596   0.277017 f
+  FA_loop_13__FA/U1/ZN (OAI22D2BWP16P90LVT)           0.011941   0.288957 r
+  FA_loop_13__FA/cout (FA_structure_19)               0.000000   0.288957 r
+  FA_loop_14__FA/cin (FA_structure_18)                0.000000   0.288957 r
+  FA_loop_14__FA/U4/ZN (INVD1BWP16P90LVT)             0.007576   0.296534 f
+  FA_loop_14__FA/U6/ZN (OAI22D1BWP16P90LVT)           0.008800   0.305334 r
+  FA_loop_14__FA/cout (FA_structure_18)               0.000000   0.305334 r
+  FA_loop_15__FA/cin (FA_structure_17)                0.000000   0.305334 r
+  FA_loop_15__FA/U1/ZN (CKND1BWP16P90LVT)             0.010447   0.315781 f
+  FA_loop_15__FA/U2/ZN (OAI22D1BWP16P90LVT)           0.009481   0.325262 r
+  FA_loop_15__FA/cout (FA_structure_17)               0.000000   0.325262 r
+  FA_loop_16__FA/cin (FA_structure_16)                0.000000   0.325262 r
+  FA_loop_16__FA/U4/ZN (INVD1BWP16P90LVT)             0.010834   0.336096 f
+  FA_loop_16__FA/U6/ZN (OAI22D1BWP16P90LVT)           0.009584   0.345680 r
+  FA_loop_16__FA/cout (FA_structure_16)               0.000000   0.345680 r
+  FA_loop_17__FA/cin (FA_structure_15)                0.000000   0.345680 r
+  FA_loop_17__FA/U2/ZN (INVD1BWP16P90LVT)             0.010834   0.356514 f
+  FA_loop_17__FA/U1/ZN (OAI22D1BWP16P90LVT)           0.011761   0.368275 r
+  FA_loop_17__FA/cout (FA_structure_15)               0.000000   0.368275 r
+  FA_loop_18__FA/cin (FA_structure_14)                0.000000   0.368275 r
+  FA_loop_18__FA/U2/ZN (CKND2BWP16P90LVT)             0.008819   0.377094 f
+  FA_loop_18__FA/U1/ZN (OAI22D2BWP16P90LVT)           0.010124   0.387219 r
+  FA_loop_18__FA/cout (FA_structure_14)               0.000000   0.387219 r
+  FA_loop_19__FA/cin (FA_structure_13)                0.000000   0.387219 r
+  FA_loop_19__FA/U2/ZN (INVD2BWP16P90LVT)             0.006471   0.393690 f
+  FA_loop_19__FA/U3/ZN (OAI22D1BWP16P90LVT)           0.010536   0.404226 r
+  FA_loop_19__FA/cout (FA_structure_13)               0.000000   0.404226 r
+  FA_loop_20__FA/cin (FA_structure_12)                0.000000   0.404226 r
+  FA_loop_20__FA/U2/Z (AO22D1BWP16P90LVT)             0.019469   0.423694 r
+  FA_loop_20__FA/cout (FA_structure_12)               0.000000   0.423694 r
+  FA_loop_21__FA/cin (FA_structure_11)                0.000000   0.423694 r
+  FA_loop_21__FA/U4/ZN (INVD1BWP16P90LVT)             0.006252   0.429946 f
+  FA_loop_21__FA/U6/ZN (OAI22D1BWP16P90LVT)           0.008451   0.438398 r
+  FA_loop_21__FA/cout (FA_structure_11)               0.000000   0.438398 r
+  FA_loop_22__FA/cin (FA_structure_10)                0.000000   0.438398 r
+  FA_loop_22__FA/U1/ZN (INVD1BWP16P90LVT)             0.010834   0.449232 f
+  FA_loop_22__FA/U3/ZN (OAI22D1BWP16P90LVT)           0.011761   0.460993 r
+  FA_loop_22__FA/cout (FA_structure_10)               0.000000   0.460993 r
+  FA_loop_23__FA/cin (FA_structure_9)                 0.000000   0.460993 r
+  FA_loop_23__FA/U2/ZN (CKND2BWP16P90LVT)             0.011002   0.471995 f
+  FA_loop_23__FA/U1/ZN (OAI22D4BWP16P90LVT)           0.008768   0.480763 r
+  FA_loop_23__FA/cout (FA_structure_9)                0.000000   0.480763 r
+  FA_loop_24__FA/cin (FA_structure_8)                 0.000000   0.480763 r
+  FA_loop_24__FA/U3/ZN (CKND2BWP16P90LVT)             0.008234   0.488997 f
+  FA_loop_24__FA/U2/ZN (OAI22D4BWP16P90LVT)           0.008636   0.497633 r
+  FA_loop_24__FA/cout (FA_structure_8)                0.000000   0.497633 r
+  FA_loop_25__FA/cin (FA_structure_7)                 0.000000   0.497633 r
+  FA_loop_25__FA/U3/ZN (CKND2BWP16P90LVT)             0.008351   0.505983 f
+  FA_loop_25__FA/U1/ZN (OAI22D4BWP16P90LVT)           0.008259   0.514242 r
+  FA_loop_25__FA/cout (FA_structure_7)                0.000000   0.514242 r
+  FA_loop_26__FA/cin (FA_structure_6)                 0.000000   0.514242 r
+  FA_loop_26__FA/U3/ZN (CKND2BWP16P90LVT)             0.008234   0.522476 f
+  FA_loop_26__FA/U2/ZN (OAI22D4BWP16P90LVT)           0.008636   0.531112 r
+  FA_loop_26__FA/cout (FA_structure_6)                0.000000   0.531112 r
+  FA_loop_27__FA/cin (FA_structure_5)                 0.000000   0.531112 r
+  FA_loop_27__FA/U4/ZN (CKND2BWP16P90LVT)             0.004936   0.536048 f
+  FA_loop_27__FA/U2/ZN (OAI22D1BWP16P90LVT)           0.010200   0.546248 r
+  FA_loop_27__FA/cout (FA_structure_5)                0.000000   0.546248 r
+  FA_loop_28__FA/cin (FA_structure_4)                 0.000000   0.546248 r
+  FA_loop_28__FA/U2/Z (AO22D1BWP16P90LVT)             0.019873   0.566121 r
+  FA_loop_28__FA/cout (FA_structure_4)                0.000000   0.566121 r
+  FA_loop_29__FA/cin (FA_structure_3)                 0.000000   0.566121 r
+  FA_loop_29__FA/U3/ZN (CKND1BWP16P90LVT)             0.006372   0.572493 f
+  FA_loop_29__FA/U1/ZN (OAI22D1BWP16P90LVT)           0.010474   0.582967 r
+  FA_loop_29__FA/cout (FA_structure_3)                0.000000   0.582967 r
+  FA_loop_30__FA/cin (FA_structure_2)                 0.000000   0.582967 r
+  FA_loop_30__FA/U3/ZN (MOAI22D1BWP16P90LVT)          0.014680   0.597648 r
+  FA_loop_30__FA/cout (FA_structure_2)                0.000000   0.597648 r
+  FA_loop_31__FA/cin (FA_structure_1)                 0.000000   0.597648 r
+  FA_loop_31__FA/U2/ZN (INVD1BWP16P90LVT)             0.007799   0.605447 f
+  FA_loop_31__FA/U7/ZN (OAI22D1BWP16P90LVT)           0.008249   0.613696 r
+  FA_loop_31__FA/cout (FA_structure_1)                0.000000   0.613696 r
+  U2/Z (XOR3D2BWP16P90LVT)                            0.026092   0.639788 f
+  co (out)                                            0.000000   0.639788 f
+  data arrival time                                              0.639788
+
+  max_delay                                           0.640000   0.640000
+  output external delay                               0.000000   0.640000
+  data required time                                             0.640000
+  --------------------------------------------------------------------------
+  data required time                                             0.640000
+  data arrival time                                              -0.639788
+  --------------------------------------------------------------------------
+  slack (MET)                                                    0.000212
+
+
+1

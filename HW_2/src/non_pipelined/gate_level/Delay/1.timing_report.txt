@@ -1,0 +1,62 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : hw2_nonpipe
+Version: T-2022.03
+Date   : Fri Oct 24 19:16:58 2025
+****************************************
+
+Operating Conditions: ss0p72vm40c   Library: N16ADFP_StdCellss0p72vm40c_ccs
+Wire Load Model Mode: top
+
+  Startpoint: s (input port)
+  Endpoint: d[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hw2_nonpipe        ZeroWireload          N16ADFP_StdCellss0p72vm40c_ccs
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                0.000000   0.000000 f
+  s (in)                                              0.000000   0.000000 f
+  U5/ZN (CKND1BWP16P90)                               0.025997   0.025997 r
+  r373/ADD_SUB (hw2_nonpipe_DW01_addsub_0)            0.000000   0.025997 r
+  r373/U9/Z (XOR2D1BWP16P90)                          0.049652   0.075649 f
+  r373/U1_0/CO (FA1D1BWP16P90LVT)                     0.030029   0.105678 f
+  r373/U1_1/CO (FA1D1BWP16P90LVT)                     0.027740   0.133417 f
+  r373/U1_2/CO (FA1D1BWP16P90LVT)                     0.027636   0.161053 f
+  r373/U1_3/CO (FA1D1BWP16P90LVT)                     0.027636   0.188689 f
+  r373/U1_4/CO (FA1D1BWP16P90LVT)                     0.027636   0.216326 f
+  r373/U1_5/CO (FA1D1BWP16P90LVT)                     0.027636   0.243962 f
+  r373/U1_6/CO (FA1D1BWP16P90LVT)                     0.027636   0.271598 f
+  r373/U1_7/S (FA1D1BWP16P90LVT)                      0.038634   0.310232 r
+  r373/SUM[7] (hw2_nonpipe_DW01_addsub_0)             0.000000   0.310232 r
+  mult_6/a[7] (hw2_nonpipe_DW_mult_uns_1)             0.000000   0.310232 r
+  mult_6/U163/ZN (CKND1BWP16P90LVT)                   0.017572   0.327804 f
+  mult_6/U129/ZN (NR2D1BWP16P90LVT)                   0.017103   0.344907 r
+  mult_6/U48/S (FA1D1BWP16P90LVT)                     0.040168   0.385074 f
+  mult_6/U45/S (FA1D1BWP16P90LVT)                     0.042152   0.427226 r
+  mult_6/U44/S (FA1D1BWP16P90LVT)                     0.038510   0.465736 f
+  mult_6/U10/CO (FA1D1BWP16P90LVT)                    0.028640   0.494376 f
+  mult_6/U9/CO (FA1D1BWP16P90LVT)                     0.027625   0.522001 f
+  mult_6/U8/CO (FA1D1BWP16P90LVT)                     0.027625   0.549626 f
+  mult_6/U7/CO (FA1D1BWP16P90LVT)                     0.027625   0.577251 f
+  mult_6/U6/CO (FA1D1BWP16P90LVT)                     0.027625   0.604876 f
+  mult_6/U5/CO (FA1D1BWP16P90LVT)                     0.027625   0.632501 f
+  mult_6/U4/CO (FA1D1BWP16P90LVT)                     0.027625   0.660126 f
+  mult_6/U3/CO (FA1D1BWP16P90LVT)                     0.023398   0.683523 f
+  mult_6/U1/Z (XOR2D1BWP16P90LVT)                     0.019416   0.702939 r
+  mult_6/product[15] (hw2_nonpipe_DW_mult_uns_1)      0.000000   0.702939 r
+  d[15] (out)                                         0.000000   0.702939 r
+  data arrival time                                              0.702939
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

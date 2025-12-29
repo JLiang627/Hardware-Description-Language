@@ -1,7 +1,0 @@
-# compile verilog/system verilog design source files
-verilog xil_defaultlib  \
-"HDL_HW4_TB_func_impl.v" \
-"../../../../../../HW4_TB_fixed.v" \
-
-# Do not sort compile order
-nosort

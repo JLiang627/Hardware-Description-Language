@@ -1,0 +1,78 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : adder_dataflow
+Version: V-2023.12
+Date   : Thu Oct  9 17:28:38 2025
+****************************************
+
+Operating Conditions: ss0p72vm40c   Library: N16ADFP_StdCellss0p72vm40c_ccs
+Wire Load Model Mode: top
+
+  Startpoint: b[0] (input port clocked by clk)
+  Endpoint: s[31] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_dataflow     ZeroWireload          N16ADFP_StdCellss0p72vm40c_ccs
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                0.000000   0.000000 f
+  b[0] (in)                                           0.000000   0.000000 f
+  add_1_root_add_10_2/B[0] (adder_dataflow_DW01_add_1)
+                                                      0.000000   0.000000 f
+  add_1_root_add_10_2/U289/ZN (NR2D1BWP16P90LVT)      0.008940   0.008940 r
+  add_1_root_add_10_2/U195/ZN (OAI21D1BWP16P90LVT)    0.013597   0.022537 f
+  add_1_root_add_10_2/U217/ZN (AOI21D1BWP16P90LVT)    0.012419   0.034956 r
+  add_1_root_add_10_2/U199/ZN (OAI21D1BWP16P90LVT)    0.015612   0.050567 f
+  add_1_root_add_10_2/U197/ZN (AOI21D1BWP16P90LVT)    0.011526   0.062094 r
+  add_1_root_add_10_2/U258/ZN (OAI21D1BWP16P90LVT)    0.013404   0.075498 f
+  add_1_root_add_10_2/U253/ZN (AOI21D1BWP16P90LVT)    0.015826   0.091324 r
+  add_1_root_add_10_2/U259/ZN (OAI21D1BWP16P90LVT)    0.015185   0.106509 f
+  add_1_root_add_10_2/U255/ZN (AOI21D1BWP16P90LVT)    0.015826   0.122336 r
+  add_1_root_add_10_2/U260/ZN (OAI21D1BWP16P90LVT)    0.015185   0.137521 f
+  add_1_root_add_10_2/U196/ZN (AOI21D1BWP16P90LVT)    0.018139   0.155660 r
+  add_1_root_add_10_2/U198/ZN (OAI21D1BWP16P90LVT)    0.013709   0.169370 f
+  add_1_root_add_10_2/U212/ZN (AOI21D1BWP16P90LVT)    0.010324   0.179694 r
+  add_1_root_add_10_2/U213/ZN (OAI21D1BWP16P90LVT)    0.009099   0.188793 f
+  add_1_root_add_10_2/U207/ZN (AOI21D1BWP16P90LVT)    0.011996   0.200789 r
+  add_1_root_add_10_2/U208/ZN (OAI21D1BWP16P90LVT)    0.009845   0.210634 f
+  add_1_root_add_10_2/U204/ZN (AOI21D1BWP16P90LVT)    0.009645   0.220279 r
+  add_1_root_add_10_2/U203/ZN (OAI21D1BWP16P90LVT)    0.013314   0.233593 f
+  add_1_root_add_10_2/U201/ZN (AOI21D1BWP16P90LVT)    0.010893   0.244486 r
+  add_1_root_add_10_2/U243/ZN (OAI21D1BWP16P90LVT)    0.009099   0.253586 f
+  add_1_root_add_10_2/U221/ZN (AOI21D1BWP16P90LVT)    0.014288   0.267874 r
+  add_1_root_add_10_2/U206/ZN (OAI21D1BWP16P90LVT)    0.015185   0.283059 f
+  add_1_root_add_10_2/U200/ZN (AOI21D1BWP16P90LVT)    0.015478   0.298537 r
+  add_1_root_add_10_2/U205/ZN (OAI21D1BWP16P90LVT)    0.010429   0.308966 f
+  add_1_root_add_10_2/U202/ZN (AOI21D1BWP16P90LVT)    0.009645   0.318611 r
+  add_1_root_add_10_2/U284/ZN (OAI21D1BWP16P90LVT)    0.012403   0.331014 f
+  add_1_root_add_10_2/U7/CO (FA1D1BWP16P90LVT)        0.028051   0.359064 f
+  add_1_root_add_10_2/U6/CO (FA1D1BWP16P90LVT)        0.027631   0.386695 f
+  add_1_root_add_10_2/U5/CO (FA1D1BWP16P90LVT)        0.027625   0.414320 f
+  add_1_root_add_10_2/U285/CO (FA1D1BWP16P90LVT)      0.027625   0.441945 f
+  add_1_root_add_10_2/U3/CO (FA1D1BWP16P90LVT)        0.027625   0.469570 f
+  add_1_root_add_10_2/U2/S (FA1D1BWP16P90LVT)         0.036372   0.505942 r
+  add_1_root_add_10_2/SUM[31] (adder_dataflow_DW01_add_1)
+                                                      0.000000   0.505942 r
+  s[31] (out)                                         0.000000   0.505942 r
+  data arrival time                                              0.505942
+
+  max_delay                                           0.507000   0.507000
+  output external delay                               0.000000   0.507000
+  data required time                                             0.507000
+  --------------------------------------------------------------------------
+  data required time                                             0.507000
+  data arrival time                                              -0.505942
+  --------------------------------------------------------------------------
+  slack (MET)                                                    0.001058
+
+
+1

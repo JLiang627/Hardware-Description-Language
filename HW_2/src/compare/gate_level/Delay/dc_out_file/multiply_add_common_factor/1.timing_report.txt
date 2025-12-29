@@ -1,0 +1,64 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : multiply_add_common_factor
+Version: T-2022.03
+Date   : Sat Oct 18 17:59:56 2025
+****************************************
+
+Operating Conditions: ss0p72vm40c   Library: N16ADFP_StdCellss0p72vm40c_ccs
+Wire Load Model Mode: top
+
+  Startpoint: a[0] (input port)
+  Endpoint: d[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiply_add_common_factor
+                     ZeroWireload          N16ADFP_StdCellss0p72vm40c_ccs
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                0.000000   0.000000 f
+  a[0] (in)                                           0.000000   0.000000 f
+  add_5/A[0] (multiply_add_common_factor_DW01_add_0)  0.000000   0.000000 f
+  add_5/U1/Z (AN2D1BWP16P90LVT)                       0.010872   0.010872 f
+  add_5/U1_1/CO (FA1D1BWP16P90LVT)                    0.025990   0.036862 f
+  add_5/U1_2/CO (FA1D1BWP16P90LVT)                    0.027606   0.064468 f
+  add_5/U1_3/CO (FA1D1BWP16P90LVT)                    0.027625   0.092092 f
+  add_5/U1_4/CO (FA1D1BWP16P90LVT)                    0.027625   0.119717 f
+  add_5/U1_5/CO (FA1D1BWP16P90LVT)                    0.027625   0.147342 f
+  add_5/U1_6/CO (FA1D1BWP16P90LVT)                    0.027625   0.174967 f
+  add_5/U1_7/S (FA1D1BWP16P90LVT)                     0.038623   0.213590 r
+  add_5/SUM[7] (multiply_add_common_factor_DW01_add_0)
+                                                      0.000000   0.213590 r
+  mult_6/a[7] (multiply_add_common_factor_DW_mult_uns_1)
+                                                      0.000000   0.213590 r
+  mult_6/U162/ZN (CKND1BWP16P90LVT)                   0.017536   0.231126 f
+  mult_6/U129/ZN (NR2D1BWP16P90LVT)                   0.017100   0.248226 r
+  mult_6/U48/S (FA1D1BWP16P90LVT)                     0.040168   0.288394 f
+  mult_6/U45/S (FA1D1BWP16P90LVT)                     0.042152   0.330545 r
+  mult_6/U44/S (FA1D1BWP16P90LVT)                     0.038510   0.369056 f
+  mult_6/U10/CO (FA1D1BWP16P90LVT)                    0.028640   0.397695 f
+  mult_6/U9/CO (FA1D1BWP16P90LVT)                     0.027625   0.425320 f
+  mult_6/U8/CO (FA1D1BWP16P90LVT)                     0.027625   0.452945 f
+  mult_6/U7/CO (FA1D1BWP16P90LVT)                     0.027625   0.480570 f
+  mult_6/U6/CO (FA1D1BWP16P90LVT)                     0.027625   0.508195 f
+  mult_6/U5/CO (FA1D1BWP16P90LVT)                     0.027625   0.535820 f
+  mult_6/U4/CO (FA1D1BWP16P90LVT)                     0.027625   0.563445 f
+  mult_6/U3/CO (FA1D1BWP16P90LVT)                     0.023398   0.586843 f
+  mult_6/U1/Z (XOR2D1BWP16P90LVT)                     0.019416   0.606258 r
+  mult_6/product[15] (multiply_add_common_factor_DW_mult_uns_1)
+                                                      0.000000   0.606258 r
+  d[15] (out)                                         0.000000   0.606258 r
+  data arrival time                                              0.606258
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

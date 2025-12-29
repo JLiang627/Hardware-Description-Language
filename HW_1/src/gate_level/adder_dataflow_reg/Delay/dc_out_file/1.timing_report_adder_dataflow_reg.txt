@@ -1,0 +1,60 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : adder_dataflow_reg
+Version: V-2023.12
+Date   : Thu Oct  9 17:52:10 2025
+****************************************
+
+Operating Conditions: ss0p72vm40c   Library: N16ADFP_StdCellss0p72vm40c_ccs
+Wire Load Model Mode: top
+
+  Startpoint: b[0] (input port clocked by clk)
+  Endpoint: s_reg_31_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_dataflow_reg ZeroWireload          N16ADFP_StdCellss0p72vm40c_ccs
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                               0.000000   0.000000
+  clock network delay (ideal)                         0.000000   0.000000
+  input external delay                                0.000000   0.000000 f
+  b[0] (in)                                           0.000000   0.000000 f
+  add_1_root_add_12_2/B[0] (adder_dataflow_reg_DW01_add_1)
+                                                      0.000000   0.000000 f
+  add_1_root_add_12_2/U394/ZN (NR2D1BWP16P90LVT)      0.008729   0.008729 r
+  add_1_root_add_12_2/U379/ZN (OAI21D1BWP16P90LVT)    0.011493   0.020222 f
+  add_1_root_add_12_2/U262/ZN (AOI21D1BWP16P90LVT)    0.014428   0.034650 r
+  add_1_root_add_12_2/U268/ZN (OAI21D1BWP16P90LVT)    0.013706   0.048356 f
+  add_1_root_add_12_2/U284/ZN (AOI21D1BWP16P90LVT)    0.014300   0.062656 r
+  add_1_root_add_12_2/U301/ZN (OAI21D1BWP16P90LVT)    0.014338   0.076994 f
+  add_1_root_add_12_2/U305/ZN (AOI21D1BWP16P90LVT)    0.013158   0.090151 r
+  add_1_root_add_12_2/U384/ZN (OAI21D1BWP16P90LVT)    0.013152   0.103304 f
+  add_1_root_add_12_2/U3/CO (FA1D1BWP16P90LVT)        0.028051   0.131354 f
+  add_1_root_add_12_2/U2/S (FA1D1BWP16P90LVT)         0.038787   0.170141 r
+  add_1_root_add_12_2/SUM[31] (adder_dataflow_reg_DW01_add_1)
+                                                      0.000000   0.170141 r
+  s_reg_31_/D (DFQD2BWP16P90LVT)                      0.000000   0.170141 r
+  data arrival time                                              0.170141
+
+  clock clk (rise edge)                               0.186000   0.186000
+  clock network delay (ideal)                         0.000000   0.186000
+  s_reg_31_/CP (DFQD2BWP16P90LVT)                     0.000000   0.186000 r
+  library setup time                                  -0.013960  0.172040
+  data required time                                             0.172040
+  --------------------------------------------------------------------------
+  data required time                                             0.172040
+  data arrival time                                              -0.170141
+  --------------------------------------------------------------------------
+  slack (MET)                                                    0.001899
+
+
+1

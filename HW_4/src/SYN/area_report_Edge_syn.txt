@@ -1,0 +1,58 @@
+ 
+****************************************
+Report : area
+Design : Edge
+Version: T-2022.03
+Date   : Tue Nov 18 18:18:01 2025
+****************************************
+
+Library(s) Used:
+
+    N16ADFP_StdCellss0p72vm40c_ccs (File: /cad/CBDK/ADFP/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/CCS/N16ADFP_StdCellss0p72vm40c_ccs.db)
+
+Number of ports:                          439
+Number of nets:                          9527
+Number of cells:                         9011
+Number of combinational cells:           1251
+Number of sequential cells:              7745
+Number of macros/black boxes:               0
+Number of buf/inv:                       1010
+Number of references:                      38
+
+Combinational area:                370.241284
+Buf/Inv area:                      205.182720
+Noncombinational area:            8833.017921
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  9203.259205
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ----------------
+Edge                              9203.2592    100.0  232.8134  8833.0179  0.0000  Edge
+add_0_root_add_105_2                10.1088      0.1   10.1088     0.0000  0.0000  Edge_DW01_add_9
+add_0_root_add_105_4                10.0570      0.1   10.0570     0.0000  0.0000  Edge_DW01_add_8
+add_0_root_add_109_2                10.1088      0.1   10.1088     0.0000  0.0000  Edge_DW01_add_4
+add_0_root_add_109_4                10.0570      0.1   10.0570     0.0000  0.0000  Edge_DW01_add_5
+add_114                              8.4499      0.1    8.4499     0.0000  0.0000  Edge_DW01_inc_1
+add_115                              8.4499      0.1    8.4499     0.0000  0.0000  Edge_DW01_inc_0
+add_1_root_add_0_root_sub_18         7.2058      0.1    7.2058     0.0000  0.0000  Edge_DW01_add_1
+add_1_root_add_105_2                 8.4499      0.1    8.4499     0.0000  0.0000  Edge_DW01_add_11
+add_1_root_add_105_4                 8.4499      0.1    8.4499     0.0000  0.0000  Edge_DW01_add_10
+add_1_root_add_109_2                 8.4499      0.1    8.4499     0.0000  0.0000  Edge_DW01_add_6
+add_1_root_add_109_4                 8.4499      0.1    8.4499     0.0000  0.0000  Edge_DW01_add_7
+add_2_root_add_0_root_sub_18         6.7392      0.1    6.7392     0.0000  0.0000  Edge_DW01_add_2
+add_88                               6.8429      0.1    6.8429     0.0000  0.0000  Edge_DW01_inc_2
+sub_105                             12.8045      0.1   12.8045     0.0000  0.0000  Edge_DW01_sub_2
+sub_109                             12.8045      0.1   12.8045     0.0000  0.0000  Edge_DW01_sub_1
+--------------------------------  ---------  -------  --------  ---------  ------  ----------------
+Total                                                 370.2413  8833.0179  0.0000
+
+1

@@ -1,0 +1,73 @@
+ 
+****************************************
+Report : area
+Design : thumb
+Version: T-2022.03
+Date   : Thu Nov 13 17:48:09 2025
+****************************************
+
+Library(s) Used:
+
+    N16ADFP_StdCellss0p72vm40c_ccs (File: /cad/CBDK/ADFP/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/CCS/N16ADFP_StdCellss0p72vm40c_ccs.db)
+
+Number of ports:                         3596
+Number of nets:                         16074
+Number of cells:                        11908
+Number of combinational cells:          11141
+Number of sequential cells:               737
+Number of macros/black boxes:               0
+Number of buf/inv:                       2271
+Number of references:                      12
+
+Combinational area:               3994.686828
+Buf/Inv area:                      403.004169
+Noncombinational area:             855.152673
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  4849.839500
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  -------------------------
+thumb                             4849.8395    100.0    26.1792     0.0000  0.0000  thumb
+step1                              137.3242      2.8    22.0838    91.8605  0.0000  IF
+step1/r363                          23.3798      0.5    23.3798     0.0000  0.0000  IF_DW01_add_0_DW01_add_15
+step2                              643.9565     13.3   470.6035   173.3530  0.0000  ID
+step3                             3553.3211     73.3  1929.4849   271.4342  0.0000  EX
+step3/add_0_root_add_831_2          33.0739      0.7    33.0739     0.0000  0.0000  EX_DW01_add_4
+step3/add_1_root_add_779_2          40.2797      0.8    40.2797     0.0000  0.0000  EX_DW01_add_15
+step3/add_780                       25.9200      0.5    25.9200     0.0000  0.0000  EX_DW01_add_6
+step3/add_781                       27.2160      0.6    27.2160     0.0000  0.0000  EX_DW01_add_5
+step3/add_840_2                     34.3699      0.7    34.3699     0.0000  0.0000  EX_DW01_add_3
+step3/add_849                       23.4317      0.5    23.4317     0.0000  0.0000  EX_DW01_add_2
+step3/add_852                       26.9050      0.6    26.9050     0.0000  0.0000  EX_DW01_add_1
+step3/add_891                       22.8614      0.5    22.8614     0.0000  0.0000  EX_DW01_add_0
+step3/mult_884                     642.1939     13.2   642.1939     0.0000  0.0000  EX_DW_mult_uns_1
+step3/r918                          44.4269      0.9    44.4269     0.0000  0.0000  EX_DW01_add_14
+step3/r919                          25.1424      0.5    25.1424     0.0000  0.0000  EX_DW01_add_13
+step3/r920                          25.5571      0.5    25.5571     0.0000  0.0000  EX_DW01_add_12
+step3/r984                          23.3798      0.5    23.3798     0.0000  0.0000  EX_DW01_add_11
+step3/r989                          28.0454      0.6    28.0454     0.0000  0.0000  EX_DW01_sub_6
+step3/r990                          49.3517      1.0    49.3517     0.0000  0.0000  EX_DW01_sub_5
+step3/r991                          25.0906      0.5    25.0906     0.0000  0.0000  EX_DW01_add_10
+step3/r992                          26.0237      0.5    26.0237     0.0000  0.0000  EX_DW01_add_9
+step3/r993                          25.6608      0.5    25.6608     0.0000  0.0000  EX_DW01_add_8
+step3/sub_0_root_sub_0_root_sub_910_2   45.5155     0.9   45.5155    0.0000 0.0000  EX_DW01_sub_12
+step3/sub_1_root_sub_0_root_sub_910_2   29.9635     0.6   29.9635    0.0000 0.0000  EX_DW01_sub_11
+step3/sub_886                       29.7562      0.6    29.7562     0.0000  0.0000  EX_DW01_sub_4
+step3/sub_896                       22.8096      0.5    22.8096     0.0000  0.0000  EX_DW01_sub_3
+step3/sub_918                       25.9718      0.5    25.9718     0.0000  0.0000  EX_DW01_sub_2
+step3/sub_921                       26.0755      0.5    26.0755     0.0000  0.0000  EX_DW01_sub_1
+step3/sub_924                       23.3798      0.5    23.3798     0.0000  0.0000  EX_DW01_sub_0
+step4                              489.0586     10.1   170.5536   318.5050  0.0000  WB
+--------------------------------  ---------  -------  ---------  ---------  ------  -------------------------
+Total                                                 3994.6868   855.1527  0.0000
+
+1

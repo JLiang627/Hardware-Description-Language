@@ -1,0 +1,56 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : multiply_add
+Version: T-2022.03
+Date   : Sat Oct 18 17:53:43 2025
+****************************************
+
+Operating Conditions: ss0p72vm40c   Library: N16ADFP_StdCellss0p72vm40c_ccs
+Wire Load Model Mode: top
+
+  Startpoint: a[0] (input port)
+  Endpoint: d[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiply_add       ZeroWireload          N16ADFP_StdCellss0p72vm40c_ccs
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                0.000000   0.000000 r
+  a[0] (in)                                           0.000000   0.000000 r
+  mult_4/a[0] (multiply_add_DW_mult_uns_2)            0.000000   0.000000 r
+  mult_4/U148/ZN (CKND1BWP16P90LVT)                   0.013959   0.013959 f
+  mult_4/U119/ZN (NR2D1BWP16P90LVT)                   0.016147   0.030106 r
+  mult_4/U57/CO (HA1D2BWP16P90LVT)                    0.021239   0.051345 r
+  mult_4/U55/S (FA1D1BWP16P90LVT)                     0.035855   0.087200 f
+  mult_4/U13/CO (FA1D1BWP16P90LVT)                    0.027252   0.114451 f
+  mult_4/U12/CO (FA1D1BWP16P90LVT)                    0.027623   0.142074 f
+  mult_4/U11/CO (FA1D1BWP16P90LVT)                    0.027625   0.169699 f
+  mult_4/U10/CO (FA1D1BWP16P90LVT)                    0.027625   0.197324 f
+  mult_4/U9/CO (FA1D1BWP16P90LVT)                     0.027625   0.224949 f
+  mult_4/U8/CO (FA1D1BWP16P90LVT)                     0.027625   0.252574 f
+  mult_4/U7/CO (FA1D1BWP16P90LVT)                     0.027625   0.280198 f
+  mult_4/U6/CO (FA1D1BWP16P90LVT)                     0.027625   0.307823 f
+  mult_4/U5/CO (FA1D1BWP16P90LVT)                     0.027625   0.335448 f
+  mult_4/U4/CO (FA1D1BWP16P90LVT)                     0.027625   0.363073 f
+  mult_4/U3/CO (FA1D1BWP16P90LVT)                     0.027625   0.390698 f
+  mult_4/U2/S (FA1D1BWP16P90LVT)                      0.042923   0.433621 r
+  mult_4/product[14] (multiply_add_DW_mult_uns_2)     0.000000   0.433621 r
+  add_8/A[14] (multiply_add_DW01_add_0)               0.000000   0.433621 r
+  add_8/U1_14/CO (FA1D1BWP16P90LVT)                   0.020448   0.454069 r
+  add_8/U1_15/Z (XOR3D2BWP16P90LVT)                   0.024210   0.478279 f
+  add_8/SUM[15] (multiply_add_DW01_add_0)             0.000000   0.478279 f
+  d[15] (out)                                         0.000000   0.478279 f
+  data arrival time                                              0.478279
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

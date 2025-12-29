@@ -1,0 +1,47 @@
+ 
+****************************************
+Report : area
+Design : hw2_clockgating
+Version: T-2022.03
+Date   : Fri Oct 24 21:58:19 2025
+****************************************
+
+Library(s) Used:
+
+    N16ADFP_StdCellss0p72vm40c_ccs (File: /cad/CBDK/ADFP/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/CCS/N16ADFP_StdCellss0p72vm40c_ccs.db)
+
+Number of ports:                          181
+Number of nets:                           526
+Number of cells:                          304
+Number of combinational cells:            267
+Number of sequential cells:                33
+Number of macros/black boxes:               0
+Number of buf/inv:                         44
+Number of references:                       2
+
+Combinational area:                114.566402
+Buf/Inv area:                        7.153920
+Noncombinational area:              37.635841
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   152.202244
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ------------------------------------
+hw2_clockgating                    152.2022    100.0    0.0000     0.0000  0.0000  hw2_clockgating
+u_stage1                            43.6493     28.7   11.3011    19.3882  0.0000  hw2_clockgating_stage1
+u_stage1/r368                       12.9600      8.5   12.9600     0.0000  0.0000  hw2_clockgating_stage1_DW01_addsub_0
+u_stage2                           108.5530     71.3    5.1322    18.2477  0.0000  hw2_clockgating_stage2
+u_stage2/mult_11                    85.1731     56.0   85.1731     0.0000  0.0000  hw2_clockgating_stage2_DW_mult_uns_1
+--------------------------------  ---------  -------  --------  ---------  ------  ------------------------------------
+Total                                                 114.5664    37.6358  0.0000
+
+1

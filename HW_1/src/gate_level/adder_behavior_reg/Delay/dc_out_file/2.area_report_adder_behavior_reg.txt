@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : adder_behavior_reg
+Version: V-2023.12
+Date   : Thu Oct  9 18:51:28 2025
+****************************************
+
+Library(s) Used:
+
+    N16ADFP_StdCellss0p72vm40c_ccs (File: /cad/CBDK/ADFP/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/CCS/N16ADFP_StdCellss0p72vm40c_ccs.db)
+
+Number of ports:                          197
+Number of nets:                           513
+Number of cells:                          349
+Number of combinational cells:            315
+Number of sequential cells:                33
+Number of macros/black boxes:               0
+Number of buf/inv:                         67
+Number of references:                       2
+
+Combinational area:                 77.189761
+Buf/Inv area:                       10.471680
+Noncombinational area:              30.792960
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   107.982722
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  -----------------------------
+adder_behavior_reg                 107.9827    100.0    0.0000    30.7930  0.0000  adder_behavior_reg
+add_1_root_add_12_2                 77.1898     71.5   77.1898     0.0000  0.0000  adder_behavior_reg_DW01_add_1
+--------------------------------  ---------  -------  --------  ---------  ------  -----------------------------
+Total                                                  77.1898    30.7930  0.0000
+
+1
