@@ -14,15 +14,30 @@
 
 ## 📁 專案結構
 
-| 資料夾 | 作業內容 | 分數 |
-|--------|----------|------|
-| `HW_1` | Adder Designs Using Verilog Structural, Dataflow, and Behavioral Modeling | 100 |
-| `HW_2` | Pipelined Add/Sub/Multiplier | 100 |
-| `HW_3` | Pipelined THUMB CPU | 100 |
-| `HW_4` | Sobel Edge Detector | 100 |
-| `HW_5` | VGG16 Accelerator | 90 |
-| `HW_6` | 額外作業 | - |
-| `教材` | 課程教材與參考資料 | - |
+```
+Hardware-Description-Language/
+├── HW_1/                  # Adder Designs (Structural, Dataflow, Behavioral)
+│   ├── src/               # 程式碼
+│   └── spec/              # 作業規格說明
+├── HW_2/                  # Pipelined Add/Sub/Multiplier
+│   ├── src/
+│   └── spec/
+├── HW_3/                  # Pipelined THUMB CPU
+│   ├── src/
+│   └── spec/
+├── HW_4/                  # Sobel Edge Detector
+│   ├── src/
+│   └── spec/
+├── HW_5/                  # VGG16 Accelerator
+│   ├── src/
+│   └── spec/
+├── HW_6/                  # 額外作業
+│   ├── src/
+│   └── spec/
+└── 教材/                   # 課程教材與參考資料
+```
+
+> **說明**：`src/` 資料夾包含我的程式碼實作，`spec/` 資料夾包含老師的作業要求與規格說明。
 
 ## 📊 修課成績
 
