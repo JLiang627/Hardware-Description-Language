@@ -47,7 +47,7 @@ Hardware-Description-Language/
 |------|------|------|
 | 期中考 (Midterm) | 20% | 9.1 (45.5分) |
 | 期末考 (Final) | 20% | 14.9 (74.5分) |
-| 作業總分 (Homework) | 60% | 58.8 |
+| 作業總分 (Homework) | 60% | 67.8 |
 
 ### 作業詳細成績
 
@@ -58,9 +58,11 @@ Hardware-Description-Language/
 | HW3 | Pipelined THUMB CPU | 100 | 12.0 |
 | HW4 | Sobel Edge Detector | 100 | 12.0 |
 | HW5 | VGG16 Accelerator | 90 | 10.8 |
+| HW6 | CNN Accelerator | 75 | 9 |
+
 
 ### 總成績
 
-**學習活動成績：82.8 分**
+**學習活動成績：91.8 分**
 
 *此 Repository 用於記錄硬體描述語言課程的學習成果與作業。*
